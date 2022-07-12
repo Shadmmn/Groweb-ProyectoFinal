@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$keyColor20: #F1F6F920;
+$mainFont: 'Open sans', 'sans-serif';
+$fontL: 2em;
+$fontM: 1.5em;
+$fontS: .5em;
+@media screen and (min-width:600px){
+
+.header-home{
+    text-align: center;
+    color: $mainColor;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .main-home{
+    display: flex;
+    justify-content: center;
+  }
+  .img-head-sec{
+    padding: 5em;
+  }
+.imag-head{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.sec1 {
+margin-top: 2em;
+}
+.mgb4{
+  margin-bottom: 4em;
+}
+.logoimg-home{
+  box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.logohm{
+  width: 30em;
+  margin-top: -5%;
+  margin-bottom: -10%;
+}
+.aside-hm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0% 35%;
+  margin-top: -5%;
+}
+.art-hm{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.fontS{
+  font-size: $fontS;
+}
+.fontM{
+  font-size: $fontM;
+}
+.fontL{
+  font-size: $fontL;
+}
+.mckpimg-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mockup{
+  width: 40em;
+}
+.colwh{
+  color: #F1F6F9;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+}
+@media screen and (max-width:600px) {
+  .mgb4{
+    margin-bottom: 4em;
+  }
+  .sec1{
+    width: 100%;
+    margin: 4em 0em;
+  }
+  .logoimg-home{
+    margin-top: -15%;
+    margin-bottom: -15%;
+  }
+  .mckpimg-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mockup{
+    width: 25em;
+  }
+  
+}
