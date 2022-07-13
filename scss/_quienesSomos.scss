@@ -34,15 +34,14 @@ $fontS: .5em;
     width: 40em;
     height: 20em;
     border-radius: 15px;
-}
-.sec-qs:hover{
+&:hover{
     border-radius: 5px;
     background-color: #393E4695;
     border: #222831 solid .2em;
     -webkit-box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
 -moz-box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
 box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
-
+}
 }
 }
 @media screen and (max-width:600px) {
@@ -59,11 +58,11 @@ box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
     border-radius: 5px;
     margin: 0 0 2em 0;
     padding: 5%;
-    animation-name: example;
+    animation-name: breath;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-@keyframes example {
+@keyframes breath {
     0% {background-color: $keyColor;}
     25% {background-color: $mainColor; color: white;}
     50% {background-color: $secondaryColor;}
@@ -71,4 +70,4 @@ box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
     100%{background-color: $keyColor;}
     
   }
-}
+}   

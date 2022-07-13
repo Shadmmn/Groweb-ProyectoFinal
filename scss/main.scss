@@ -1,7 +1,9 @@
-@import "navbar";
-@import "varios";
-@import "home";
-@import "footer";
-@import "servicios";
-@import "contacto";
-@import "quienesSomos";
+@import "_home";
+@import "_varios";
+@import "_navbar";
+@import "_footer";
+@import "_servicios";
+@import "_contacto";
+@import "_quienesSomos";
+@import "_nuestroTrabajo";
+@import "mixin";

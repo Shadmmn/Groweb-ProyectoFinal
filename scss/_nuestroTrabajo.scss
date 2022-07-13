@@ -1,0 +1,61 @@
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$keyColor20: #F1F6F920;
+$mainFont: 'Open sans', 'sans-serif';
+$fontL: 2em;
+$fontM: 1.5em;
+$fontS: .5em;
+/*extends*/
+.centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cls-extend1{
+    width: 20em;
+    height: 10em;
+    margin-top: 5em;
+    border: #393E46 solid 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+.cls-extend2 {
+    @extend .cls-extend1;
+    margin-bottom: 5em;
+    padding: 2%;
+}
+.cls-extend3 {
+    @extend .cls-extend2;
+    background-color: aqua;
+}
+/*mixin*/
+@mixin text($size, $color, $decor){
+    font-size: $size;
+    color: $color;
+    text-decoration: $decor;
+}
+h4 {
+    @include text (5em, aqua, underline)
+}
+/*maps*/
+$colorp:(
+    'u': #4267B3,
+    'd': #E9EBEE,
+    't': #90949C,
+    'c': #616771,
+);
+.centrado2{
+    @extend .centrado;
+    flex-direction: unset;
+    flex-wrap: wrap;
+}
+.secej{
+    width: 5em;
+    color: map-get($map: $colorp, $key: 'u');
+    background-color: map-get($map: $colorp, $key: 'd' );
+    border: map-get($map: $colorp, $key:'u' ) solid 5px;
+    margin: 2%;
+}

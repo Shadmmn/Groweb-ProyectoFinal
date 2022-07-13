@@ -57,10 +57,9 @@ $fontS: .5em;
     font-size: 2em;
     width: 10em;
     padding: .5%;
-}
-.bt-cnt:hover{
+    &:hover{
     background-color: #222831;
-    color: $keyColor;
+    color: $keyColor;}
 }
 .bt-cnt a:hover{
     color: $keyColor;
@@ -107,10 +106,9 @@ $fontS: .5em;
         align-content: center;
         margin-bottom: 5em;
         transition: all 1s ease;
-    }
-    .bt-cnt:hover{
+    &:hover{
         background-color: #222831;
-        color: white;
+        color: white;    }
     }
 
 }

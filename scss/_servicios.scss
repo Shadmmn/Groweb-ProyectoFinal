@@ -29,11 +29,11 @@ $fontS: .5em;
     width: 25em;
     height: 4em;
     transition: all .5s ease;
-}
-.boton-serv:hover{
+    &:hover{
     cursor:pointer;
     background-color: #393E4620;
     color: #393E46;
+    }
 }
 .sections-serv{
     background-color: #393E46;
