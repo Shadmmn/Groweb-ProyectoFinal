@@ -6,6 +6,8 @@ $mainFont: 'Open sans', 'sans-serif';
 $fontL: 2em;
 $fontM: 1.5em;
 $fontS: .5em;
+@media screen and (min-width:600px) {
+
 .hh-serv{
     text-align: center;
 }
@@ -69,4 +71,30 @@ $fontS: .5em;
     align-content: flex-start;
     margin: 4.4em;
     text-align: center;    
+}
+}
+@media screen and (max-width:600px){
+.main-serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-comp{
+    border: #393E46 solid 5px;
+    margin: 0 2em 5em 2em;
+    padding-bottom: 2em;
+}
+.sections-serv{
+    background-color: #393E4620;
+    height: 5em;
+    padding-top: 10%;
+    border-bottom: $keyColor solid 5px;
+}
+.sectopms-serv2{
+    background-color: #22283170;
+    padding: 4%;
+}
+.bt-pos{
+    padding: 10% 10% 5% 10%;
+}
 }

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$mainFont: 'Open sans', 'sans-serif';
+$fontL: 2em;
+$fontM: 1.5em;
+$fontS: .5em;
+@media screen and (min-width:600px) {
+.hd-qs{
+    font-size: $fontL;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 8em;
+}
+.box-qs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 15em;
+}
+.sec-qs{
+    border: $keyColor solid .5em;
+    background-color: $mainColor;
+    color: $keyColor;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    width: 40em;
+    height: 20em;
+    border-radius: 15px;
+}
+.sec-qs:hover{
+    border-radius: 5px;
+    background-color: #393E4695;
+    border: #222831 solid .2em;
+    -webkit-box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
+box-shadow: -1px 9px 5px 0px rgba(0,0,0,0.3);
+
+}
+}
+@media screen and (max-width:600px) {
+.hd-qs{
+    text-align: center;
+    padding: 2%;
+    margin: 2em 0 1em 0;
+}
+.box-qs{
+    padding: 5%;
+    margin-bottom: 5em;
+}
+.sec-qs{
+    border-radius: 5px;
+    margin: 0 0 2em 0;
+    padding: 5%;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {background-color: $keyColor;}
+    25% {background-color: $mainColor; color: white;}
+    50% {background-color: $secondaryColor;}
+    75% {background-color:$mainColor;}
+    100%{background-color: $keyColor;}
+    
+  }
+}

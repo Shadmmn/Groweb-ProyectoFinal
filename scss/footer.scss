@@ -56,12 +56,14 @@ $fontS: .5em;
     margin: 5em 0;
     font-size: 2em;
     width: 10em;
-    height: 1em;
     padding: .5%;
 }
 .bt-cnt:hover{
     background-color: #222831;
-    color: white;
+    color: $keyColor;
+}
+.bt-cnt a:hover{
+    color: $keyColor;
 }
 .rigths{
     margin: 3% 0%;
@@ -85,7 +87,7 @@ $fontS: .5em;
         background-color: #393E46;
     }
     .fut-logo{
-        width: 4em;
+        width: 2em;
         border: gray solid 1px;
         border-radius: 15px;
         margin: 5px;
