@@ -33,11 +33,13 @@ $fontS: .5em;
 }
 .fut {
     bottom: 0;
+    background-color: #393E46;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content: space-evenly;
+    border-bottom: #222831 solid 2px;
 }
 .fut a:hover{
     background-color: grey;
@@ -48,12 +50,12 @@ $fontS: .5em;
     width: 5em;
 }
 .bt-cnt {
-    background-color: #F1F6F9;
+    background-color: #22283120;
     text-align: center;
     align-items: center;
     border: $keyColor solid 2px;
     border-radius: 5px;
-    margin: 5em 0;
+    margin: 3em 0;
     font-size: 2em;
     width: 10em;
     padding: .5%;
@@ -69,6 +71,23 @@ $fontS: .5em;
     color: #F1F6F9;
     font-size: $fontS;
 }
+.navfut{
+    display: flex;
+    flex-direction: column;
+    color: $keyColor;
+    text-align: start;
+    text-decoration: underline;
+    margin-top: 5em;
+    margin-left: -60%;
+    padding-right: 20%;
+    border-right: $keyColor solid 5px;
+  }
+  .navfut a{
+    align-content: flex-start;
+    text-align: center;
+    color: $keyColor;
+    text-align: start;
+  }  
 }
 @media screen and (max-width: 600px){
     .posit-footer{
@@ -81,7 +100,7 @@ $fontS: .5em;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         background-color: #393E46;
     }
@@ -110,5 +129,21 @@ $fontS: .5em;
         background-color: #222831;
         color: white;    }
     }
+    .navfut{
+        background-color: #393E46;
+        display: flex;
+        flex-direction: column;
+        color: $keyColor;
+        text-align: start;
+        padding: 5%;
+        text-decoration: underline;
+        border-right: $keyColor solid 5px;
+      }
+      .navfut a{
+        align-content: flex-start;
+        text-align: center;
+        color: $keyColor;
+        text-align: start;
+      }  
 
 }

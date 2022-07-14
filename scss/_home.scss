@@ -14,6 +14,7 @@ $fontS: .5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10em;
 }
   .main-home{
     display: flex;
@@ -32,6 +33,10 @@ margin-top: 2em;
 }
 .mgb4{
   margin-bottom: 4em;
+  color: $mainColor;
+  border-bottom: #222831 solid 15px;
+  border-radius: 15px;
+  padding-bottom: 5em;
 }
 .logoimg-home{
   box-sizing: content-box;
@@ -40,6 +45,7 @@ margin-top: 2em;
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-bottom: 20em;
 }
 .logohm{
   width: 30em;
@@ -53,13 +59,16 @@ margin-top: 2em;
   align-items: center;
   text-align: center;
   padding: 0% 35%;
-  margin-top: -5%;
+  margin-top: 5em;
   margin-bottom: 5em;
 }
 .art-hm{
+  border-top: #222831 solid 20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
 }
 .fontS{
   font-size: $fontS;
@@ -77,10 +86,10 @@ margin-top: 2em;
   align-items: center;
 }
 .mockup{
-  width: 40em;
+  width: 100%;
 }
 .colwh{
-  color: #F1F6F9;
+  color: $mainColor;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -104,6 +113,6 @@ margin-top: 2em;
     align-items: center;
   }
   .mockup{
-    width: 25em;
+    width: 100%;
   }
 }

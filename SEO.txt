@@ -1,0 +1,4 @@
+MEJORAS CON SEO:
+Aplique etiquetas <meta> principalmente en la home.
+Revision/correccion de Headers (h1, h2)
+Puse todos los ALT en las imagenes. 
