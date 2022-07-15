@@ -131,23 +131,6 @@ $fontS: .5em;
       outline:0;
       border: 1px solid #393E46;
     }
-.navfut{
-  display: flex;
-  flex-direction: column;
-  color: $keyColor;
-  text-align: start;
-  text-decoration: underline;
-  margin-left: -60%;
-  padding-right: 20%;
-  border-right: $keyColor solid 5px;
-}
-.navfut a{
-  align-content: flex-start;
-  text-align: center;
-  color: $keyColor;
-  text-align: start;
-}
-
     }
     @media screen and (max-width: 600px) {
       #conten {

@@ -451,21 +451,7 @@ body {
     border: 1px solid #393E46; }
   .formulario textarea:focus {
     outline: 0;
-    border: 1px solid #393E46; }
-  .navfut {
-    display: flex;
-    flex-direction: column;
-    color: #F1F6F9;
-    text-align: start;
-    text-decoration: underline;
-    margin-left: -60%;
-    padding-right: 20%;
-    border-right: #F1F6F9 solid 5px; }
-  .navfut a {
-    align-content: flex-start;
-    text-align: center;
-    color: #F1F6F9;
-    text-align: start; } }
+    border: 1px solid #393E46; } }
 
 @media screen and (max-width: 600px) {
   #conten {
