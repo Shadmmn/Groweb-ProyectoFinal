@@ -95,6 +95,15 @@ margin-top: 2em;
 }
 }
 @media screen and (max-width:600px) {
+  .main-home{
+    padding: 5%;
+  }
+  .header-home{
+    padding: 4%;
+  }
+  .aside-hm{
+    padding: 5%;
+  }
   .mgb4{
     margin-bottom: 4em;
   }
@@ -114,5 +123,8 @@ margin-top: 2em;
   }
   .mockup{
     width: 100%;
+  }
+  .art-hm{
+    margin: 8em 0;
   }
 }

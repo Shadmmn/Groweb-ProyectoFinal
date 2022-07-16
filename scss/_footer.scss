@@ -76,18 +76,28 @@ $fontS: .5em;
     flex-direction: column;
     color: $keyColor;
     text-align: start;
-    text-decoration: underline;
     margin-top: 5em;
-    margin-left: -60%;
-    padding-right: 20%;
+    margin-left: -80%;
+    padding-right: 5%;
     border-right: $keyColor solid 5px;
+    border-radius: 5px;
   }
   .navfut a{
     align-content: flex-start;
     text-align: center;
     color: $keyColor;
     text-align: start;
-  }  
+    text-decoration: underline;
+    &:hover{
+        background-color: #ffffff20;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    }
+.navmap {
+    font-size: $fontL;
+    text-decoration: none;
+}
 }
 @media screen and (max-width: 600px){
     .posit-footer{
